@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!--
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terrain Modifier"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <com.example.hitcalc.utility.items_selector.ItemSelectorSimpleHorizontal
+            android:id="@+id/terrainModifierSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.example.hitcalc.ui.combat_scenes.map.HexView
+                android:id="@+id/hex00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2sp" />
+
+
+            <com.example.hitcalc.ui.combat_scenes.map.HexView
+                android:id="@+id/hex01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2sp" />
+
+            <com.example.hitcalc.ui.combat_scenes.map.HexView
+                android:id="@+id/hex02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.example.hitcalc.ui.combat_scenes.map.HexView
+                android:id="@+id/hex10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2sp" />
+
+            <com.example.hitcalc.ui.combat_scenes.map.HexView
+                android:id="@+id/hex11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2sp" />
+
+            <com.example.hitcalc.ui.combat_scenes.map.HexView
+                android:id="@+id/hex12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2sp" />
+
+            <com.example.hitcalc.ui.combat_scenes.map.HexView
+                android:id="@+id/hex13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.example.hitcalc.ui.combat_scenes.map.HexView
+                android:id="@+id/hex20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2sp" />
+
+            <com.example.hitcalc.ui.combat_scenes.map.HexView
+                android:id="@+id/hex21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2sp" />
+
+            <com.example.hitcalc.ui.combat_scenes.map.HexView
+                android:id="@+id/hex22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</merge>

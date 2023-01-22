@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragmentRound">
+    <fragment
+        android:id="@+id/fragmentRound"
+        android:name="com.example.hitcalc.ui.turns_and_rounds.RoundFragment"
+        android:label="Game Round"
+        tools:layout="@layout/nested_fragment_round" >
+        <action
+            android:id="@+id/action_fragmentRound_self"
+            app:destination="@id/fragmentRound" />
+        <action
+            android:id="@+id/action_fragmentRound_to_roundCompletionFragment"
+            app:destination="@id/roundCompletionFragment" />
+        <action
+            android:id="@+id/action_fragmentRound_to_editFragment"
+            app:destination="@id/editFragment" />
+        <action
+            android:id="@+id/action_fragmentRound_to_rootTurnFragment"
+            app:destination="@id/rootTurnFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSettings"
+        android:name="com.example.hitcalc.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settings_self"
+            app:destination="@id/fragmentSettings" />
+        <action
+            android:id="@+id/action_fragmentSettings_to_editFragment"
+            app:destination="@id/editFragment" />
+        <action
+            android:id="@+id/action_fragmentSettings_to_fragmentRound"
+            app:destination="@id/fragmentRound" />
+    </fragment>
+    <fragment
+        android:id="@+id/roundCompletionFragment"
+        android:name="com.example.hitcalc.ui.turns_and_rounds.RoundCompletionFragment"
+        android:label="Round Completion" >
+        <action
+            android:id="@+id/action_roundCompletionFragment_to_fragmentRound"
+            app:destination="@id/fragmentRound" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.hitcalc.ui.turns_and_rounds.EditFragment"
+        android:label="EditFragment" >
+        <action
+            android:id="@+id/action_editFragment_to_fragmentRound"
+            app:destination="@id/fragmentRound" />
+    </fragment>
+    <fragment
+        android:id="@+id/rootTurnFragment"
+        android:name="com.example.hitcalc.ui.turns_and_rounds.ParentTurnFragment"
+        android:label="RootTurnFragment" >
+        <action
+            android:id="@+id/action_rootTurnFragment_to_fragmentRound"
+            app:destination="@id/fragmentRound" />
+        <action
+            android:id="@+id/action_rootTurnFragment_to_roundCompletionFragment"
+            app:destination="@id/roundCompletionFragment" />
+    </fragment>
+</navigation>

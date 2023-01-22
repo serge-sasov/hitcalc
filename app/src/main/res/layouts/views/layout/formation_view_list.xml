@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/groupFormationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/formationTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@color/colorGray"
+            android:gravity="center_vertical"
+            android:paddingLeft="50sp"
+            android:text="Macedon Army"
+            android:textSize="25sp" />
+    </LinearLayout>
+</merge>

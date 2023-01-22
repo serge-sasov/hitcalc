@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">HitCalc</string>
+    <string name="title_activity_shock_config_army">Shock Config Army</string>
+    <string name="BackBtn">Back</string>
+    <string name="ForwardBtn">Forward</string>
+    <string name="SaveCombatSceneBtn">Save Combat Scene</string>
+    <string name="CalculateHitsBtn">Calculate Hits</string>
+    <string name="AddNewCombatSceneBtn">Add New Combat Scene</string>
+    <string name="ShockCombatModifiersOutcome">Outcome of Shock Combat Modifiers</string>
+    <string name="RandomDiceRoll">Random Dice Roll Value</string>
+    <string name="Hit">Hit</string>
+    <string name="CheckForRout">Check for Rout</string>
+    <string name="ExtraRoutDicePoints">Extra Rout Dice Points</string>
+    <string name="Retreat">Retreat</string>
+    <string name="Rout">Rout</string>
+    <string name="Yes">Yes</string>
+    <string name="Attacker">Attacker</string>
+    <string name="Defender">Defender</string>
+    <string name="DefenderHex">Defender</string>
+    <string name="FrontHex">Front</string>
+    <string name="FlankHex">Flank</string>
+    <string name="RearHex">Rear</string>
+    <string name="title_activity_load_game">LoadGameActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="forced_retreat">Forced Retreat</string>
+    <string name="retreat_before_shock">Retreat Before Shock</string>
+    <string name="distance_attack_defence">Distance Attack Defence</string>
+    <string name="hit_and_run">Hit &amp; Run</string>
+    <string name="rampage">Rampage</string>
+    <string name="rampage_defence">Rampage Defence</string>
+    <string name="shock_combat">Shock Combat</string>
+    <string name="round">ROUND</string>
+    <string name="turn">TURN</string>
+    <string name="seizure_attempt">Seizure Attempt</string>
+    <string name="main_turn">Main Turn</string>
+    <string name="no_action_points">No Action Points</string>
+    <string name="available_action_points">Action Points</string>
+    <string name="available_seizure_points">Seizure Points</string>
+    <string name="fresh">Fresh</string>
+    <string name="spent">Spent</string>
+    <string name="config_weakness_btn">Config\nWeakness</string>
+    <string name="end_turn_btn">End Turn</string>
+    <string name="active_player">active player</string>
+    <string name="complete_edit">Complete Edit</string>
+    <string name="no_warriors_rooted_yet">NO WARRIORS ROOTED YET</string>
+    <string name="rooted_warriors">Rooted warriors</string>
+    <string name="required">Required</string>
+
+    <string name="action_point">Action Point</string>
+    <string name="pass_turn">Pass Turn</string>
+    <string name="seizure_failure">Seizure Failure</string>
+    <string name="seizure_point">Seizure Point</string>
+    <string name="skip_seizure">Skip Seizure</string>
+    <string name="APs">APs</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="root">Root</string>
+    <string name="outcomeSetupTitle">Warriors Root Setup</string>
+    <string name="phalanxSetupTitle">Phalanx Weakness Setup</string>
+
+</resources>

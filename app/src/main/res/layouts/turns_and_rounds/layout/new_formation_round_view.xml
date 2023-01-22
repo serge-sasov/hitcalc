@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/formationCaptureLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#EDBB23"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5sp">
+
+    <TextView
+        android:id="@+id/formationTitle"
+        android:layout_width="180dp"
+        android:layout_height="22dp"
+        android:gravity="center"
+        android:text="Alexander Formation"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/formationCaptureLayout"
+        app:layout_constraintTop_toTopOf="@+id/formationCaptureLayout" />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="60sp"
+        android:layout_height="20sp"
+        android:gravity="center"
+        android:text="Fresh"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/formationTitle"
+        app:layout_constraintTop_toBottomOf="@+id/formationTitle" />
+
+    <TextView
+        android:id="@+id/seizurePoints"
+        android:layout_width="120sp"
+        android:layout_height="20sp"
+        android:gravity="center"
+        android:text="2 Seizure Points"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/state"
+        app:layout_constraintTop_toBottomOf="@+id/formationTitle" />
+
+    <com.example.hitcalc.ui.turns_and_rounds.game.turn_actions.view.TurnActionMarkerView
+        android:id="@+id/actionMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintStart_toEndOf="@+id/formationTitle"
+        app:layout_constraintTop_toTopOf="@+id/formationCaptureLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/configureBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/config_weakness_btn"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline"
+        app:layout_constraintStart_toEndOf="@+id/actionMarker"
+        app:layout_constraintTop_toTopOf="@+id/formationCaptureLayout" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="48dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

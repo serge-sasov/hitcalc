@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HitCalc</string>
+    <string name="title_activity_shock_config_army">Shock Config Army</string>
+    <string name="BackBtn">Назад</string>
+    <string name="ForwardBtn">Дальше</string>
+    <string name="SaveCombatSceneBtn">Сохранить Сценарий Боя</string>
+    <string name="CalculateHitsBtn">Рассчитать Урон</string>
+    <string name="AddNewCombatSceneBtn">Добавить Новый Сценарий Боя</string>
+    <string name="ShockCombatModifiersOutcome">Значение Параметров Ближнего Боя</string>
+    <string name="RandomDiceRoll">Рузультат Броска Кубика</string>
+    <string name="Hit">Урон</string>
+    <string name="CheckForRout">Проверка на Бегство</string>
+    <string name="ExtraRoutDicePoints">Дополнительные очки к броску на Бегство</string>
+    <string name="Retreat">Отступление</string>
+    <string name="Rout">Бегство</string>
+    <string name="Yes">Да</string>
+    <string name="Attacker">Атакующий</string>
+    <string name="Defender">Защищающийся</string>
+    <string name="DefenderHex">В обороне</string>
+    <string name="FrontHex">Фронт</string>
+    <string name="FlankHex">Фланг</string>
+    <string name="RearHex">Тыл</string>
+    <string name="forced_retreat">Отступление</string>
+    <string name="retreat_before_shock">Уклонение\nот Боя</string>
+    <string name="distance_attack_defence">Защита\nот\nОбстрела</string>
+    <string name="hit_and_run">Ударь и Беги</string>
+    <string name="rampage">Бешенство</string>
+    <string name="rampage_defence">Защита\nот\nБешенства</string>
+    <string name="shock_combat">Рукопашный\nБой</string>
+    <string name="round">РАУНД</string>
+    <string name="turn">ХОД</string>
+    <string name="seizure_attempt">Попытка Перехвата Хода</string>
+    <string name="main_turn">Основной Ход</string>
+    <string name="no_action_points">Нет доступных Очков Действий</string>
+    <string name="available_action_points">Очка Действий</string>
+    <string name="available_seizure_points">Очка Перехвата</string>
+    <string name="fresh">Свежее</string>
+    <string name="spent">Уставшее</string>
+    <string name="config_weakness_btn">Настроить\nУсталость</string>
+    <string name="end_turn_btn">Конец Хода</string>
+    <string name="active_player">активный игрок</string>
+    <string name="complete_edit">Завершить Редактирование</string>
+    <string name="no_warriors_rooted_yet">БЕЗ ПОТЕРЬ</string>
+    <string name="rooted_warriors">Боевые потери</string>
+    <string name="required">Требуется</string>
+
+    <string name="action_point">Очко Действия</string>
+    <string name="pass_turn">Пропустить Ход</string>
+    <string name="seizure_failure">Неудачный Перехват</string>
+    <string name="seizure_point">Очко Перехвата</string>
+    <string name="skip_seizure">Без Перехвата</string>
+    <string name="APs">ОД</string>
+    <string name="root">Бегство</string>
+</resources>

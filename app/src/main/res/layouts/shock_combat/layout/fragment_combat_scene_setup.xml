@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.hitcalc.ui.combat_scenes.map.MapView
+        android:id="@+id/combat_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/expandBtn"
+        android:layout_width="46dp"
+        android:layout_height="71dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/button_down"
+        app:layout_constraintBottom_toBottomOf="@+id/combat_field"
+        app:layout_constraintEnd_toEndOf="@+id/combat_field" />
+
+    <com.example.hitcalc.utility.items_selector.ItemSelectorSimpleHorizontal
+        android:id="@+id/terrainModifierSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/combat_field"/>
+
+    <com.example.hitcalc.utility.items_selector.ItemSelectorSimpleHorizontal
+        android:id="@+id/diceRollSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terrainModifierSelector"/>
+
+    <Button
+        android:id="@+id/calculateHitsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/CalculateHitsBtn"
+        android:layout_marginTop="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diceRollSelector" />
+
+    <com.example.hitcalc.ui.combat_scenes.army.views.GroupFormationView
+        android:id="@+id/groupFormationView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculateHitsBtn"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_default="wrap"
+        tools:layout_editor_absoluteX="-174dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

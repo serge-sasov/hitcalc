@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/counter_box"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/rounded_border_red"
+    android:layout_width="70sp"
+    android:layout_height="65sp">
+
+    <TextView
+        android:id="@+id/counterTitle"
+        android:layout_width="66sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Alexander"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/counter_box"
+        app:layout_constraintStart_toStartOf="@+id/counter_box"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/unitType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#FFEB3B"
+        android:padding="2sp"
+        android:text="Leader"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/counter_box"
+        app:layout_constraintEnd_toStartOf="@+id/unitProperty"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/unitProperty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/circular"
+        android:padding="2sp"
+        android:text="H"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/unitType"
+        app:layout_constraintEnd_toEndOf="@+id/counter_box" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

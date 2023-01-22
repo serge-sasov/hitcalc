@@ -1,0 +1,22 @@
+13.08.20 
+- redesign of combat calculator. 
+- add expandable config elements
+- set initial page to the round layout
+
+04.07.20
+- support of legion cohorts classes is added. 
+
+31.07.20
+- corrected error with multiplication of TQ and Size characteristics in case of battle scene copy
+- right inheretence of the left seizure points from the previous round
+- corrected calculation of army root values
+- translated most of the interface layouts
+
+
+26.07.20.
+- added a possibility for turn actions of given formation to apply them for another one
+- if formation or warrior root, they disappear out of their parent object
+- new round is instanciated after all previous round completions effects are done (formation & warriors roots or retreats, healing ups and so on)
+- no warrior killed message is added to each formation in round view
+
+
